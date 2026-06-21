@@ -261,7 +261,7 @@ function drawText(progress) {
 
   const line1a = 'Dr Jay Verma';
   const line1b = '  Homeopathy';
-  ctx.font = '300 28px serif';
+  ctx.font = '280 26px serif';
   const w1a = ctx.measureText(line1a).width;
   const w1b = ctx.measureText(line1b).width;
   const line1total = w1a + w1b;
@@ -273,7 +273,7 @@ function drawText(progress) {
   ctx.fillText(line1a, line1startX, textY1);
 
   ctx.fillStyle = '#90d4a0';
-  ctx.font = '300 28px serif';
+  ctx.font = '280 26px serif';
   ctx.fillText(line1b, line1startX + w1a, textY1);
 
   // Divider dot
